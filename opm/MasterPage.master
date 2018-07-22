@@ -1,0 +1,38 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+     <style type="text/css">
+         #form1 {
+             width: 100%;
+             height:100%;
+         }
+     </style>
+
+     <asp:ContentPlaceHolder Id="head" runat="server">
+         
+    </asp:ContentPlaceHolder>
+<head id="Head1" runat="server">
+   <body style="height: 100%">
+   
+       <form Id="form1" runat="server" style="background-image: url('/opm/images/br3.png'); background-size:cover; background-position: center center; background-attachment: fixed; background-repeat: no-repeat; position: fixed; width: 100%; height: 100%;"  >
+        <div style="height:15%; text-align: justify;" class="container">
+         
+         <asp:Label ID="Label2" runat="server" BackColor="Aqua" BorderStyle="Double" Font-Bold="True" Font-Italic="True" Font-Names="Imprint MT Shadow" Font-Size="XX-Large" ForeColor="#F9042F" Height="51%" Text="  J&amp;N " Width="72px" BorderColor="#F9042F" style="margin-top: 0px;"></asp:Label>
+         
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;<asp:Label ID="Label5" runat="server" BackColor="Aqua" BorderColor="#F9042F" BorderStyle="Double" Font-Bold="True" Font-Italic="True" Font-Size="XX-Large" ForeColor="#F9042F" Height="40px" Text="JAMES AND NICHOLE GROUP" Width="497px" style="text-align: center; margin-left: 0px"></asp:Label>
+            <asp:ContentPlaceHolder Id="ContentPlaceHolder1" runat="server">
+             </asp:ContentPlaceHolder>
+     
+        <p>
+            &nbsp;</p>
+        <p>
+             &nbsp;</p>
+        <p>
+            &nbsp;</p>
+            </div>
+    </form>
+</body>
+    </head>
+</html>
